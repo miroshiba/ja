@@ -1,0 +1,279 @@
+    @charset "UTF-8";
+    @font-face {
+        font-family: 'Montserrat Bold';
+        src: url(../font/montserrat-bold.ttf);
+    }
+
+    .wrapper {
+        font-family: "Montserrat Bold" !important;
+        font-size: 0.8rem;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    /* Top */
+
+    .navbar-nav {
+        margin-right: -1rem;
+    }
+
+    .navbar {
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+
+    .container-fluid {
+        text-transform: uppercase;
+    }
+
+    .logo {
+        width: 8vw;
+    }
+
+    /* Image Slider */
+
+    .carousel-indicators li {
+        margin: 8px!important;
+        border-radius: 50%;
+        width: 16px!important;
+        height: 16px!important;
+    }
+
+    .carousel-inner img {
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+    }
+
+    /* portfolio */
+
+    .portfolio a {
+        text-decoration: none;
+    }
+
+    .portfolio a:link, .portfolio a:visited, .portfolio a:active {
+        color: #fff;
+    }
+
+    .portfolio a:hover {
+        color: #999;
+        text-decoration: none;
+    }
+
+    .portfolio_portfolio {
+        background-image: url(../images/index/portfolio.png);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_portfolio_caption {
+        padding: 25vh 0;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height: auto;
+    }
+
+    .portfolio_left_caption, .portfolio_right_caption, .portfolio_title, .portfolio_paintings_left_caption, .portfolio_paintings_right_caption, .portfolio_process_caption {
+        font-size: 2rem;
+    }
+
+    .portfolio_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio_left {
+        background-image: url(../images/index/smaller_projects.png);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_left_caption, .portfolio_right_caption {
+        width: 50vw;
+        padding: 7.5vh 0;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .portfolio_right {
+        background-image: url(../images/index/production.png);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa-lock {
+        color: #fff;
+        font-size: 50%;
+        margin: 5px 7.5px;
+    }
+
+    .portfolio_title {
+        text-transform: uppercase;
+        margin: 5vh 0 7.5vh 0;
+    }
+
+    .portfolio_paintings_wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .portfolio_paintings_left {
+        background-image: url(../images/index/tokyo.png);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_paintings_left_caption, .portfolio_paintings_right_caption {
+        width: 50vw;
+        padding: 25vh 0;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.5);
+        height: auto;
+    }
+
+    .portfolio_paintings_right {
+        background-image: url(../images/index/plein_air.png);
+        background-position: 0% 0%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_process {
+        background-image: url(../images/index/process.png);
+        background-position: center center;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+
+    .portfolio_process_caption, .portfolio_production_caption {
+        padding: 10vh 0;
+        text-transform: uppercase;
+        background-color: rgba(0, 0, 0, 0.5);
+        width: 100vw;
+        height: auto;
+    }
+
+    /* Profile */
+
+    .profile {
+        margin: 5vh 10vw;
+    }
+
+    .profile_left img {
+        width: 20vw;
+        height: 20vw;
+        object-fit: cover;
+        border-radius: 50%;
+        object-position: 0 0;
+    }
+
+    .profile_right {
+        font-size: 1.5rem;
+        margin: auto 0 auto 5vw;
+        text-transform: uppercase;
+    }
+
+    .profile a:first-child:link, .profile a:first-child:visited, .profile a:first-child:active {
+        color: #555;
+    }
+
+    .profile a:first-child:hover {
+        color: #777;
+        text-decoration: none;
+    }
+
+    .profile a:last-child:link, .profile a:last-child:visited, .profile a:last-child:active {
+        color: #777;
+    }
+
+    .profile a:last-child:hover {
+        color: #999;
+        text-decoration: none;
+    }
+
+    .logo_2 {
+        width: 20vw;
+    }
+
+    .logo_3 {
+        width: 16vw;
+    }
+
+    /* Bottom */
+
+    .bottom {
+        margin: 20px 0;
+    }
+
+    .bottom_item {
+        margin: 10px;
+    }
+
+    .fa-linkedin, .fa-envelope, .fa-facebook, .fa-twitter, .fa-instagram {
+        color: #000;
+    }
+
+    .fa-linkedin:hover, .fa-envelope:hover, .fa-facebook:hover, .fa-twitter:hover, .fa-instagram:hover {
+        color: #d5d5d5;
+    }
+
+    /* Other pages */
+
+    .title {
+        padding: 15vh 0;
+        text-transform: uppercase;
+    }
+
+    .works_list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .works_list img {
+        max-width: 100%;
+    }
+
+    @media screen and (max-width: 768px) {
+        /* SP style */
+        .nav-item {
+            text-align: right;
+        }
+        .navbar-nav {
+            margin-right: 0;
+        }
+        .logo {
+            width: 24vw;
+        }
+        .profile_left img {
+            width: 25vw;
+            height: 25vw;
+        }
+        .carousel-inner img {
+            height: 50vh;
+        }
+        .portfolio_left_caption, .portfolio_right_caption, .portfolio_paintings_left_caption, .portfolio_paintings_right_caption, .portfolio_process_caption {
+            font-size: 4vw;
+        }
+        .profile_right {
+            font-size: 3vw;
+        }
+        .logo_2 {
+            width: 28vw;
+        }
+        .logo_3 {
+            width: 22vw;
+        }
+        @media screen and (min-width: 769px) {
+            /* PC style */
+        }
